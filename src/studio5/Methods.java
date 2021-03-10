@@ -21,6 +21,52 @@ public class Methods {
 	}
 
 	/**
+	 * Draw a bull's eye at the given location with the given radius.
+	 *
+	 * @param x      the x coordinate of the center of the bull's eye
+	 * @param y      the y coordinate of the center of the bull's eye
+	 * @param radius the radius of the bull's eye
+	 */
+	public static void drawBullsEye(double x, double y, double radius) {
+		StdDraw.setPenColor(StdDraw.BLACK);
+		StdDraw.filledCircle(x, y, radius);
+
+		// TODO: Draw the remaining rings of the bull's eye
+		// Blue ring with 3.0/4.0 the radius
+		// suggested rgb values: 0, 109, 219
+
+		
+
+		// Red ring with 1.0/2.0 the radius
+		// suggested rgb values: 146, 0, 0
+
+		
+
+		// Yellow ring with 1.0/4.0 the radius
+		// suggested rgb values: 255, 255, 109
+
+		
+	}
+
+	/**
+	 * Return a new String which is the original source String with all occurrences
+	 * of the target character substituted by the replacement String.
+	 * 
+	 * @param source      the source String
+	 * @param target      the target character to be replaced
+	 * @param replacement the replacement String
+	 * 
+	 * @return the String which results from substituting all of the target
+	 *         characters in the source String with the replacement String
+	 */
+	public static String substituteAll(String source, char target, String replacement) {
+		String result = "";
+		// TODO: Finish this method
+		
+		return result;
+	}
+
+	/**
 	 * Compute the sum of elements in an array
 	 * 
 	 * @param values an array of integers
@@ -53,33 +99,4 @@ public class Methods {
 	// TODO: Create a JavaDoc comment for the arrayMean method.
 
 	
-
-	/**
-	 * Draw a bull's eye at the given location with the given radius.
-	 *
-	 * @param x      the x coordinate of the center of the bull's eye
-	 * @param y      the y coordinate of the center of the bull's eye
-	 * @param radius the radius of the bull's eye
-	 */
-	public static void drawBullsEye(double x, double y, double radius) {
-		StdDraw.setPenColor(StdDraw.BLACK);
-		StdDraw.filledCircle(x, y, radius);
-
-		// TODO: Draw the remaining rings of the bull's eye
-		// Blue ring with 3.0/4.0 the radius
-		// suggested rgb values: 0, 109, 219
-
-		
-
-		// Red ring with 1.0/2.0 the radius
-		// suggested rgb values: 146, 0, 0
-
-		
-
-		// Yellow ring with 1.0/4.0 the radius
-		// suggested rgb values: 255, 255, 109
-
-		
-	}
-
 }
